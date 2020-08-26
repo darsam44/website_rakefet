@@ -1,0 +1,109 @@
+body {
+  text-align: center;
+}
+
+.top-container {
+  background-color: #40E0D0;
+  padding-top: 50px;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: black;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3{
+  line-height: 0.5;
+}
+
+a {
+  color: #11999E;
+  margin: 20px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a :hover {
+  color: #EAF6F6;
+}
+
+p {
+  line-height: 2;
+}
+
+/* the photos in the subs */
+.show-photos {
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+  display: block;
+  margin-left: 35%;
+}
+
+.My-Photo {
+  width: 20%;
+}
+
+.main_photo {
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Workshop-photo {
+  width: 45%;
+  float: left;
+  margin-right: 30px;
+}
+
+.main-manue {
+  margin-left: 85px;
+}
+
+.bottom-container {
+  background-color: #40E0D0;
+  padding: 50px 0 20px;
+}
+
+.main_cocher {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.cocher-photo {
+  width: 50%;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/* how the jelwery show to everyone */
+.show-jewelry {
+  padding-top: 1rem;
+  margin: auto;
+  text-align: left;
+  display: inline-block;
+}
+
+.show-text-under {
+  text-align: center;
+}
+
+.contair_show {
+  width: 100%;
+  margin-right: 10px;
+  padding: 0;
+}
