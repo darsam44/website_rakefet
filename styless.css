@@ -48,6 +48,10 @@ p {
   margin-left: 35%;
 }
 
+.show-photos:hover{
+  transform: scale(1.1);
+}
+
 .My-Photo {
   width: 20%;
 }
@@ -106,4 +110,26 @@ p {
   width: 100%;
   margin-right: 10px;
   padding: 0;
+}
+
+/* popup image */
+.popup{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  display: none;
+}
+
+.popup-contact img{width: 40%}
+
+.close{
+  background: #000;
+  color: #fff;
+  padding: 9px 24px;
+  float: right;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
 }

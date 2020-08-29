@@ -1,6 +1,24 @@
 
-/*
 
+$(document).ready(function(){
+  $(".pop_image").click(function(){
+    var im_src = $(this).attr("src");
+    $(".popup").fadeIn();
+    $(".popup-contact img").attr("src" , im_src);
+  });
+
+  $(document).keyup(function(e){
+    if (e.key === "Escape"){
+      $(".popup").fadeOut();
+    }
+  });
+  $(".close").click(function(){
+      $(".popup").fadeOut();
+  });
+});
+
+
+/*
 var next = document.querySelector(".next");
 var photo_1 = document.getElementById('er_1');
 
