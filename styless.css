@@ -21,7 +21,7 @@ h2 {
 }
 
 h3{
-  line-height: 0.5;
+  line-height: 1.2;
 }
 
 a {
@@ -46,6 +46,7 @@ p {
   margin-right: 30px;
   display: block;
   margin-left: 35%;
+    cursor: pointer;
 }
 
 .show-photos:hover{
@@ -122,7 +123,10 @@ p {
   display: none;
 }
 
-.popup-contact img{width: 40%}
+.popup-contact img{
+  max-width: 35%;
+   height: auto;
+}
 
 .close{
   background: #000;
