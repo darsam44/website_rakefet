@@ -39,6 +39,15 @@ p {
   line-height: 2;
 }
 
+.my_odot{
+  text-align: right;
+  line-height: 1.2;
+  font-size:1.6rem;
+  direction: rtl;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 /* the photos in the subs */
 .show-photos {
   width: 40%;
