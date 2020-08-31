@@ -45,8 +45,10 @@ p {
   line-height: 1.2;
   font-size:1.6rem;
   direction: rtl;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 0px;
+  margin-bottom: 0.2em;
 }
 
 /* the photos in the subs */
