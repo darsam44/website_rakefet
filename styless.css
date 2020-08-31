@@ -12,6 +12,7 @@ h1 {
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
   color: black;
+  direction: rtl;
 }
 
 h2 {
