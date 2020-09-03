@@ -54,7 +54,20 @@ p {
 
 /* the photos in the subs */
 .show-photos {
-  height: 12rem;
+  height: 15rem;
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+  display: block;
+  margin-left: 35%;
+    cursor: pointer;
+}
+
+.show-photos:hover{
+  transform: scale(1.1);
+}
+
+.pop_image{
   width: 40%;
   float: left;
   margin-right: 30px;
