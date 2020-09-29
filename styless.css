@@ -2,11 +2,6 @@ body {
   text-align: center;
 }
 
-.top-container {
-  background-color: #40E0D0;
-  padding-top: 50px;
-}
-
 h1 {
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
@@ -40,6 +35,46 @@ a :hover {
 p {
   line-height: 2;
 }
+
+/* main page */
+
+.top-container {
+  /*background-color: #40E0D0;*/
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  position: relative;
+  text-align: center;
+
+}
+
+.center_on_photo{
+  color: white;
+  position: absolute;
+  top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.head_main{
+  color: #D9ECF2;
+}
+
+.top_border_photo{
+  width: 100%;
+  height: 10rem;
+}
+
+.bottom-container {
+
+}
+
+.bottom_border_photo{
+  width: 100%;
+  height: 3rem;
+}
+
+/*end main page */
+
 
 .my_odot{
   text-align: right;
@@ -83,11 +118,16 @@ p {
   width: 20%;
 }
 
+/*main pabge */
 .main_photo {
   height: 8rem;
   width: 40%;
   float: left;
   margin-right: 30px;
+}
+
+.go_into{
+  text-align: right;
 }
 
 .Workshop-photo {
@@ -100,10 +140,7 @@ p {
   margin-left: 85px;
 }
 
-.bottom-container {
-  background-color: #40E0D0;
-  padding: 50px 0 20px;
-}
+
 
 .main_cocher {
   text-align: center;
