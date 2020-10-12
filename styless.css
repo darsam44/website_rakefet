@@ -201,3 +201,16 @@ transform: translate(-50%, -50%);
   font-weight: bold;
   cursor: pointer;
 }
+
+/* delive page */
+.deliver2{
+  text-align: right;
+  line-height: 1.2;
+  font-size:1.2rem;
+  direction: rtl;
+  margin-left: 25%;
+  margin-right: 20%;
+  margin-top: 0px;
+  margin-bottom: 0.3em;
+
+}
