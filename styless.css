@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  background-color: #e8ffff;
 }
 
 h1 {
@@ -37,6 +38,22 @@ p {
 }
 
 /* main page */
+
+/* slider photo */
+.slider_photo{
+  width: 60%;
+}
+
+.container_top_photos{
+  width: 60%;
+}
+
+.slide{
+  width: 750px;
+  margin-left: 350px;
+  padding-bottom: 100px;
+}
+
 
 .top-container {
   /*background-color: #40E0D0;*/

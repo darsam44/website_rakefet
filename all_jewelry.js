@@ -17,6 +17,34 @@ $(document).ready(function(){
   });
 });
 
+//slider photos
+var i =0;
+var images = [];
+var time = 3000;
+var im = document.getElementsByClassName("slide")[0];
+var img_1 = document.getElementById("slide_img");
+
+// images
+images[0] = 'slider_photos/slider1.jpg';
+images[1] = 'slider_photos/slider2.jpg';
+images[2] = 'slider_photos/slider3.jpg';
+images[3] = 'slider_photos/slider4.jpg';
+
+
+function slider(){
+if ( i < images.length){
+  i=i+1;
+}
+else {
+  i=1;
+}
+
+document.getElementById("slide_img").src = images[i-1];
+}
+
+
+setInterval(slider, 2500);
+
 
 /*
 var next = document.querySelector(".next");
