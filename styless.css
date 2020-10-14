@@ -3,6 +3,13 @@ body {
   background-color: #e8ffff;
 }
 
+@media only screen and (max-width : 320px) {
+   img{
+     width: 100%;
+     height: auto;
+   }
+}
+
 h1 {
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
@@ -155,7 +162,7 @@ transform: translate(-50%, -50%);
 }
 
 .main-manue {
-  
+
 }
 
 
