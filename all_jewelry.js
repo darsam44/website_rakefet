@@ -45,7 +45,6 @@ document.getElementById("slide_img").src = images[i-1];
 
 setInterval(slider, 2500);
 
-
 /*
 var next = document.querySelector(".next");
 var photo_1 = document.getElementById('er_1');
