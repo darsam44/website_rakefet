@@ -44,6 +44,7 @@ p {
   line-height: 2;
 }
 
+
 /* main page */
 
 /* slider photo */
@@ -114,7 +115,7 @@ transform: translate(-50%, -50%);
 
 /* the photos in the subs */
 .show-photos {
-  width: 40%;
+  width: 200px;
   float: left;
   margin-right: 30px;
   display: block;
@@ -125,6 +126,7 @@ transform: translate(-50%, -50%);
 .show-photos:hover{
   transform: scale(1.1);
 }
+
 
 .pop_image{
   width: 40%;
@@ -194,6 +196,7 @@ transform: translate(-50%, -50%);
 
 .show-text-under {
   text-align: center;
+  margin-left: 150px;
 }
 
 .contair_show {
